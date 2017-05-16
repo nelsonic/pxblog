@@ -40,4 +40,8 @@ config :pxblog, Pxblog.Repo,
   password: System.get_env("DATABASE_PASSWORD"),
   database: System.get_env("DATABASE_NAME"),
   hostname: System.get_env("DATABASE_HOST"),
+  # username: "postgres",
+  # password: "postgres",
+  # database: "pxblog_dev",
+  # hostname: "localhost",
   pool_size: 10
