@@ -18,4 +18,5 @@ config :pxblog, Pxblog.Repo,
   password: System.get_env("DATABASE_PASSWORD"),
   database: System.get_env("DATABASE_NAME"),
   hostname: System.get_env("DATABASE_HOST"),
-  pool_size: 20
+  pool_size: 20,
+  ssl: true
