@@ -1,8 +1,8 @@
-APP="hello_world_edeliver"
+APP="pxblog"
 
 BUILD_HOST="52.232.127.28"
 BUILD_USER="azure"
-BUILD_AT="/home/azure/hello_world_edeliver/builds"
+BUILD_AT="/home/azure/pxblog/builds"
 
 PRODUCTION_HOSTS="52.232.127.28"
 PRODUCTION_USER="azure"
@@ -37,4 +37,3 @@ pre_erlang_clean_compile() {
     APP='$APP' MIX_ENV='$TARGET_MIX_ENV' $MIX_CMD phoenix.digest $SILENCE
   "
 }
-
