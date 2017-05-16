@@ -1,5 +1,15 @@
 # Pxblog
 
+## What?
+
+This repo is _exclusively_ for testing Deployment of a Database-backed
+Phoenix Web Application to a Virtual Machine using Edeliver.
+
+To see the complete walkthrough of the deployment process,
+see: [https://github.com/dwyl/learn-phoenix-framework/blob/master/production-deployment.md](https://github.com/dwyl/learn-phoenix-framework/blob/master/production-deployment.md)
+
+## _How_?
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
