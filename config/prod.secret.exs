@@ -14,9 +14,6 @@ config :pxblog, Pxblog.Endpoint,
 # Configure your database
 config :pxblog, Pxblog.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: System.get_env("DATABASE_USERNAME"),
-  password: System.get_env("DATABASE_PASSWORD"),
-  database: System.get_env("DATABASE_NAME"),
-  hostname: System.get_env("DATABASE_HOST"),
+  url: System.get_env("DATABASE_URL"),
   pool_size: 20,
   ssl: true
